@@ -75,7 +75,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #141204;
+  background-color: #001011;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -103,7 +103,10 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #77A1D3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   content: "";
   transition: width 0.2s;
 }
@@ -124,7 +127,10 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: #77A1D3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -151,7 +157,10 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: #77A1D3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -165,8 +174,9 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #bd5353;
-  background-image: linear-gradient(to right, #d35353 10%, #6372ff 100%);
+  background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -248,7 +258,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
-  background-color: #141204;
+  background-color: #001011;
 }
 #about h3 {
   color: #ffffff;
@@ -264,7 +274,10 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: #77A1D3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -300,7 +313,9 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #9c3f3f 10%, #72b6ff 100%);
+  background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
 }
 #services .service-desc {
@@ -342,7 +357,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
-  background-color: #141204;
+  background-color: #001011;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -358,16 +373,14 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(172, 74, 74, 0.8) 0%,
-    rgba(34, 70, 105, 0.8) 100%
-  );
+  background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 30% 0 0;
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 .hover-bg .hover-text > h4 {
   opacity: 0;
@@ -392,7 +405,7 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #141204;
+  background: #001011;
 }
 #testimonials i {
   color: #e6e6e6;
@@ -450,7 +463,9 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #9c3f3f 0%, #72b6ff  100%);
+  background: #77a1d3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -575,7 +590,7 @@ label {
 }
 /* Footer Section*/
 #footer {
-  background: #141204;
+  background: #001011;
   padding: 30px 0;
 }
 #footer p {

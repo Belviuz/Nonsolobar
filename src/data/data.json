@@ -90,11 +90,10 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "address": "Corso Vittorio Emanuele 115, Tronzano Vercellese (VC) ",
+    "phone": "0161 911780",
+    "email": "bar.info@libero.it",
+    "facebook": "https://www.facebook.com/www.nonsolobar.it/?ref=page_internal"
+    
   }
 }
